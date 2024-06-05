@@ -19,7 +19,7 @@
   }
   
   .background{
-    background: url('../image/background.jpg') no-repeat center center/cover;
+    background: url('../image/background.jpg') no-repeat center;
     background-size: 100% auto;
     position: relative;
   }
@@ -51,11 +51,6 @@
   .logo-container img{
     width: 22%;
     margin: 0 0 7px;
-  }
-  
-  .signInButton-container{
-    flex: 1;
-    text-align: end;
   }
   
   .signInButton-container button{
@@ -100,14 +95,12 @@
   .intro-text2{
     background: linear-gradient(120deg,#FF7900,#FF7900, #F55F2F, #A517C6,#A517C6); 
     color:transparent;
-    -webkit-background-clip: text;
     background-clip: text;
   }
   
   .intro-text3{
-    background: linear-gradient(to right, #FF7900, #FF7900, #F0504A, #FF7802, #AA19C0, #AA19C0);
+    background: linear-gradient(to right, #FF7900, #FF7900, #F0504A, #cc02ff, #AA19C0, #AA19C0);
     color:transparent;
-    -webkit-background-clip: text;
     background-clip: text;
   }
   
